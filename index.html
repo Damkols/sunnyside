@@ -10,7 +10,9 @@
   <body>
     <header>
       <nav>
-        <div class="logo"></div>
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="" />
+        </div>
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="">Services</a></li>
@@ -23,60 +25,228 @@
         <img src="./assets/icon-arrow-down.svg" alt="arrow down" />
       </div>
     </header>
-    <section>
-      <div class="transform">
-        <h2>Transform your brand</h2>
-        <p>
-          We are a full-service creative agency specializing in helping brands
-          grow fast. Engage your clients through compelling visuals that do most
-          of the marketing for you
-        </p>
-        <button>LEARN MORE</button>
+
+    <!-- Grid Section -->
+
+    <section class="container">
+      <!-- Transform Container -->
+
+      <div class="transformContainer">
+        <!-- Transform your brand Card -->
+
+        <div class="transform">
+          <h2>Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you
+          </p>
+          <button>LEARN MORE</button>
+        </div>
+
+        <!-- Transform Image -->
+
+        <div class="transformImg">
+          <img
+            src="./assets/mobile/image-transform.jpg"
+            srcset="
+              ./assets/mobile/image-transform.jpg   500w,
+              ./assets/desktop/image-transform.jpg 1200w
+            "
+            alt="image-transform"
+          />
+        </div>
       </div>
-      <img
-        src="./assets/mobile/image-transform.jpg"
-        srcset="
-          ./assets/mobile/image-transform.jpg   500w,
-          ./assets/desktop/image-transform.jpg 1200w
-        "
-        alt=""
-      />
-      <img
-        src="./assets/mobile/image-stand-out.jpg"
-        srcset="
-          ./assets/mobile/image-stand-out.jpg   500w,
-          ./assets/desktop/image-stand-out.jpg 1200w
-        "
-        alt=""
-      />
-      <div class="standout">
-        <h2>Standout to the right audience</h2>
-        <p>
-          using a collaborative formula of designers, researchers,
-          photographers, videographers and copywriters, we'll build and extend
-          your brand in digital places
-        </p>
-        <button>LEARN MORE</button>
+
+      <!-- Standout Container -->
+
+      <div class="standoutContainer">
+        <!-- Standout Image -->
+
+        <div class="standoutImg">
+          <img
+            src="./assets/mobile/image-stand-out.jpg"
+            srcset="
+              ./assets/mobile/image-stand-out.jpg   500w,
+              ./assets/desktop/image-stand-out.jpg 1200w
+            "
+            alt="image-stand-out"
+          />
+        </div>
+
+        <!-- Standout Card -->
+
+        <div class="standout">
+          <h2>Standout to the right audience</h2>
+          <p>
+            using a collaborative formula of designers, researchers,
+            photographers, videographers and copywriters, we'll build and extend
+            your brand in digital places
+          </p>
+          <button>LEARN MORE</button>
+        </div>
       </div>
+
+      <!-- Graphic Design -->
+
+      <div class="design">
+        <img
+          src="./assets/mobile/image-graphic-design.jpg"
+          srcset="
+            ./assets/mobile/image-graphic-design.jpg   500w,
+            ./assets/desktop/image-graphic-design.jpg 1200w
+          "
+          alt="image-graphic-design"
+        />
+
+        <div class="description">
+          <h3>Graphic Design</h3>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand messages and captures potential clients
+            attention
+          </p>
+        </div>
+      </div>
+
+      <!-- Photography -->
+
+      <div class="photography">
+        <img
+          src="./assets/mobile/image-photography.jpg"
+          srcset="
+            ./assets/mobile/image-photography.jpg   500w,
+            ./assets/desktop/image-photography.jpg 1200w
+          "
+          alt="image-photography"
+        />
+
+        <div class="description">
+          <h3>Photography</h3>
+          <p>
+            Increase your credibility by getting the most stunning high-quality
+            photos that improve your business image
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+
+    <div class="testimonials">
+      <h2 class="testimonialTitle">CLIENT TESTIMONIALS</h2>
+      <div class="cardContainer">
+        <!-- Emily Card -->
+
+        <div class="card">
+          <div class="image">
+            <img src="./assets/image-emily.jpg" alt="image-emily" />
+          </div>
+          <p>
+            We put our trust in SunnySide and they delivered, making sure our
+            needs were met and deadlines were always hit
+          </p>
+          <div class="name">
+            <h2>Emily R.</h2>
+            <p>Managing Director</p>
+          </div>
+        </div>
+
+        <!-- Thomas Card -->
+
+        <div class="card">
+          <div class="image">
+            <img src="./assets/image-thomas.jpg" alt="image-thomas" />
+          </div>
+          <p>
+            SunnySide's enthusiasm coupled with their keen interest in our
+            brand's success made it a satisfying and enjoyable experience
+          </p>
+          <div class="name">
+            <h2>Thomas S.</h2>
+            <p>Chief operting officer</p>
+          </div>
+        </div>
+
+        <!-- Jennie Card -->
+
+        <div class="card">
+          <div class="image">
+            <img src="./assets/image-jennie.jpg" alt="image-jennie" />
+          </div>
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked
+            with SunnySide. Highly recommended
+          </p>
+          <div class="name">
+            <h2>Jennie F.</h2>
+            <p>Business Owner</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="images">
+      <!-- Milk bottle Image -->
+
       <img
-        src="./assets/mobile/image-graphic-design.jpg"
+        src="./assets/mobile/image-gallery-milkbottles.jpg"
         srcset="
-          ./assets/mobile/image-graphic-design.jpg   500w,
-          ./assets/desktop/image-graphic-design.jpg 1200w
+          ./assets/mobile/image-gallery-milkbottles.jpg   500w,
+          ./assets/desktop/image-gallery-milkbottles.jpg 1200w
         "
-        alt=""
+        alt="image-Milkbottle"
       />
+
+      <!-- Orange in milk Image -->
+
       <img
-        src="./assets/mobile/image-photography.jpg"
+        src="./assets/mobile/image-gallery-orange.jpg"
         srcset="
-          ./assets/mobile/image-photography.jpg   500w,
-          ./assets/desktop/image-photography.jpg 1200w
+          ./assets/mobile/image-gallery-orange.jpg   500w,
+          ./assets/desktop/image-gallery-orange.jpg 1200w
         "
-        alt=""
+        alt="image-Orange"
+      />
+
+      <!-- Cone Image -->
+
+      <img
+        src="./assets/mobile/image-gallery-cone.jpg"
+        srcset="
+          ./assets/mobile/image-gallery-cone.jpg   500w,
+          ./assets/desktop/image-gallery-cone.jpg 1200w
+        "
+        alt="image-Cone"
+      />
+
+      <!-- Ice-cubes image -->
+
+      <img
+        src="./assets/mobile/image-gallery-sugar-cubes.jpg"
+        srcset="
+          ./assets/mobile/image-gallery-sugar-cubes.jpg  500w,
+          ./assets/desktop/image-gallery-sugarcubes.jpg 1200w
+        "
+        alt="image-Sugar-cube"
       />
     </section>
-    <section></section>
-    <section></section>
-    <footer></footer>
+    <footer>
+      <div class="footerTitle">
+        <h2>sunnyside</h2>
+      </div>
+      <ul class="footerLinks">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+
+      <div class="socialMedia">
+        <img src="./assets/icon-facebook.svg" alt="facebook" />
+        <img src="./assets/icon-instagram.svg" alt="instagram" /><img
+          src="./assets/icon-twitter.svg"
+          alt="twitter"
+        /><img src="./assets/icon-pinterest.svg" alt="icon-pinterest" />
+      </div>
+    </footer>
   </body>
 </html>

@@ -19,3 +19,22 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.container {
+}
+
+.container .transformContainer {
+  display: flex;
+}
+
+.transformContainer .transform {
+  flex: 1;
+}
+
+.transformContainer .transformImg {
+  flex: 1;
+}
+
+.transformContainer .transformImg img {
+  max-width: 100%;
+}
